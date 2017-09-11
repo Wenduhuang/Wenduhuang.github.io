@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+    background-color: #4ca8ff;
+}
+
+h1, h2, h3 {
+    color:rigba(199, 255, 68, .5);
+}
+
+h1{
+    text-decoration: underline;
+}
