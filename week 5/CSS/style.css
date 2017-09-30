@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
+body {
+    font-family: 'Bubbler One', sans-serif, Georgia; 
+    font-size: 16px;
+    font-weight: bolder;
+    background:
+     url(https://static1.squarespace.com/static/58941af2bf629a3f64104541/t/59825b42197aeab8ce3516a1/1501715378311/MOIC+April+20th-1095.jpg?format=2500w);
+    z-index: -1;
+    background-size:; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bubbler One', bold, arial; 
+}
+
+/* Layout */
+.header {
+    font-weight: bolder;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: pink;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+.header h1 {
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: pink;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    font-size: .6rem; 
+}
+
+.content {
+    margin: 100px auto;
+    max-width: 700px;
+    text-align: center;
+    background-color: ghostwhite; 
+    padding: 65px;
+    width: 400px;
+    opacity: .7;
+}
+
+
+.adimmision {
+    margin-bottom:10px;
+    font-size: 1rem; 
+    position: relative;
+    bottom: 0px; 
+    color: black;
+    letter-spacing: 1px;
+}
+.location {
+    margin-bottom: 40px; 
+    font-size: 1rem;
+    position: relative; 
+    text-align: center;
+    color: black;  
+    letter-spacing: 1px;
+}
+.date {
+    margin-bottom: 15px;
+    color: black; 
+    letter-spacing: 2px;
+}
+
+.about {
+    margin-bottom: 50px;
+    font-size: .8rem;
+    line-height: normal;
+    letter-spacing: .9px;
+    
+}
+
+.event ul{
+    font-family: 'Oswald';
+    font-size:.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black; 
+    
+}
+
+ul li {
+    margin-bottom: 0rem; 
+    color: black; 
+    font-size:.7rem;
+    letter-spacing: .5px;
+    font-weight: bolder;
+    line-height: 18px
+
+}
+
+.apply h1 {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    position:absolute;  
+    left: 0px;
+    top: 140px; 
+    background-color: palevioletred;
+    color:white;
+    letter-spacing: 2px;
+    font-size: .8rem; 
+    font-weight: normal; 
+}
+
+.apply h2 {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    position:absolute;  
+    left: 0px; 
+    top:80px; 
+    background-color: palevioletred;
+    color:white;
+    letter-spacing: 2px;
+    font-size: .8rem; 
+     font-weight: normal; 
+}
+
+.apply h3 {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    position:absolute;  
+    left: 0px; 
+    top:200px; 
+    background-color: palevioletred;
+    color:white;
+    letter-spacing: 2px;
+    font-size: .8rem; 
+    font-weight: normal; 
