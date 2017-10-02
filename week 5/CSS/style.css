@@ -8,7 +8,7 @@ body {
     background:
      url(https://static1.squarespace.com/static/58941af2bf629a3f64104541/t/59825b42197aeab8ce3516a1/1501715378311/MOIC+April+20th-1095.jpg?format=2500w);
     z-index: -1;
-    background-size:; 
+    background-size:cover; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: ghostwhite; 
     padding: 65px;
     width: 400px;
-    opacity: .7;
+    opacity: .85;
 }
 
 
