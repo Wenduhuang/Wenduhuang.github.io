@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color:white;
     font-size: 1.5rem;
+    letter-spacing: .8px;
 }
 
 .footer {
@@ -46,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: white;
     font-size: .6rem; 
+    letter-spacing: .4px;
 }
 
 .content {
@@ -60,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .adimmision {
-    margin-bottom:10px;
+    margin-bottom:6px;
     font-size: 1rem; 
     position: relative;
     bottom: 0px; 
@@ -68,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 .location {
-    margin-bottom: 40px; 
+    margin-bottom: 20px; 
     font-size: 1rem;
     position: relative; 
     text-align: center;
@@ -76,22 +78,24 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 .date {
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     color: black; 
     letter-spacing: 2px;
+    font-size: 1em;
 }
 
 .about {
-    margin-bottom: 50px;
-    font-size: .8rem;
+    margin-bottom: 30px;
+    font-size: .9rem;
     line-height: normal;
-    letter-spacing: .9px;
-    
+    letter-spacing: .8px;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 .event ul{
     font-family: 'Oswald';
-    font-size:.7rem;
+    font-size:1.6rem;
     text-transform: uppercase;
     font-weight: bold;
     color: black; 
@@ -101,10 +105,10 @@ h1, h2, h3, h4, h5, h6 {
 ul li {
     margin-bottom: 0rem; 
     color: black; 
-    font-size:.7rem;
+    font-size:.8rem;
     letter-spacing: .5px;
-    font-weight: bolder;
-    line-height: 18px
+    font-weight: bold;
+    line-height: 17px
 
 }
 
