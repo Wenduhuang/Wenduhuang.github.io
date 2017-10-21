@@ -5,15 +5,14 @@
         <style>
             * { margin: 0; padding: 0; }
             body{
-                font-family:helvetica; 
+                font-family:solex ot; 
                 font size: 16px;
                 font-weight: bolder;
-                
             }
             
             .header{
                 width:100%; 
-                position:fixed; 
+                position:absolute; 
                 top: 0;
                 margin-left:60px; 
                 background-color:transparent;
@@ -21,9 +20,10 @@
                 box-sizing: border-box; 
                 font-family:solex OT;
             }
+        
             .header h1{
                 font-size: 60px; 
-                position: fixed;
+                position: absolute;
             }
             
             .footer p {
@@ -45,7 +45,6 @@
             .decoration2{
                 width: 1%;
                 height:6px; 
-                position: relative;
                 top: 0; 
                 background-color:slategray;
                 padding: 20px;
@@ -56,7 +55,6 @@
             .decoration3{
                 width: 1%;
                 height:6px; 
-                position: relative;
                 top: 0; 
                 background-color: dimgray;
                 padding: 20px;
@@ -66,8 +64,7 @@
                 
             .decoration1{
                 width: 1%;
-                height:6px; 
-                position: relative;
+                height:6px;
                 top: 0; 
                 background-color:darkgrey;
                 padding: 20px;
@@ -85,8 +82,8 @@
             }
             
             .sidebar nav ul{ 
-                margin-top:150px;
-                margin-left:85px; 
+                margin-top:0px;
+                margin-left:90px; 
                 margin-right:450px; 
                 list-style:none; 
                 line-height: 10px;  
@@ -113,72 +110,56 @@
                 color: black;
                 text-decoration:none; 
             }
+            .content p{
+            margin: 100px;
+            max-width: 700px;
+            text-align: center;
+            background-color:transparent; 
+            padding: 10px;
+            width: 500px;
+            opacity: .85;
+            position: relative; 
+            margin-top:80px; 
+                }
+            .egg{
+                width:300px;
+                margin-left: 100px;
+                position: absolute;
+                margin-top: 0px;
+            }
             
-        
-            img{
-                width: 170px;
-                margin-left: 60px;
-                margin-top: 130px; 
+            .jjj{
+                width:200px;
+                margin-left: 400px;
+                position: relative;
+                margin-top: 330px;
                 
             }
-            
-            .chicken{
-                width: 170px; 
-                margin-top: 130px; 
-                margin-left: 10px; 
-                position: fixed; 
-                
-            }
-            
-            .enchiladas{
-                margin-left: 190px; 
-                position: fixed; 
-            }
-            .lakes{
-                width: 170px; 
-                position: fixed; 
-                margin-top: 266px; 
-                margin-left: 190px;
-            }
-            
-            .snack{
-                width: 170px; 
-                position: fixed;
-                margin-top: 266px; 
-                margin-left: -170px;
-            }
-            .totilla{
-                width: 170px;
-                position: fixed;
-                margin-top: 266px; 
-                margin-left: 10px;
-            }
-            
-            .pizza{
-                width: 170px; 
-                position: fixed; 
-                margin-top: 403px;
-                margin-left: -170px;  
-            }
-            .kimchi{
-                width: 170px;
-                position: fixed;
-                margin-top: 403px; 
-                margin-left: 10px; 
-            }
-            
-            .coldnoodle{
-                width: 170px;
-                position: fixed; 
-                margin-top: 403px;
-                margin-left: 190px; 
-            }
-
         </style>
     </head>
     <body>
         <div class="header">
-        <h1>HOME</h1>
+        <h1>ABOUT</h1>
+        </div>
+        
+        <div class="content">
+        <p>TOP #1
+Samyang Foods 2x Spicy Hek Buldak
+Bokkeummyun – South Korea There is no doubt in my mind that
+there’s nothing hotter than this
+one out there – as far as they
+go, this is the spiciest of the
+spiciest – at least that I’ve tried.
+This is a real burner and definitely
+takes my breath away. Therefore,
+I would say that if you aren’t
+comfortable with spicy foods,
+this will grab you, throw you on
+the ground and have it’s way with
+you. Consider this a warning in
+big red capital letters!! The heat
+will linger long after the plate is
+clean – if you can get that far!</p>
         </div>
         
     <div class="sidebar">
@@ -196,18 +177,13 @@
         <div class="decoration2"></div>
         <div class="decoration3"></div>
         
-        <div class="section">
-            <ul>
-        <a href=""><img src="image/20130909-ramen-hacks-new-burger-03-1500px-thumb-610x457-351452.jpg"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-new-chicken-1500px-thumb-610x458-351893.jpg" class="chicken"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-new-enchiladas-1500px-thumb-610x457-351455.jpg" class="enchiladas"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-new-latkes-1500px-thumb-610x458-351456.jpg" class="lakes"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-new-snack-mix-1500px-thumb-610x458-351642.jpg" class="snack"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-new-tortilla-1500px-thumb-610x457-351457.jpg" class="totilla"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-pizza-07-1500px-thumb-610x458-351458.jpg" class="pizza"/></a>
-        <a href=""><img src="image/d.jpg" class="kimchi"/></a>
-        <a href=""><img src="image/20130909-ramen-hacks-new-carbonara-1500px-thumb-610x457-351453.jpg" class="coldnoodle"/></a>
-        </ul>
+        <div class="image">
+         <a href=""><img src="image/5.png" class="egg"/></a>
+        <a href=""><img src="image/6.png" class="jjj"/></a>
+        </div>
+        
+        <div class="image">
+        
         </div>
         <div class="footer">
             <p>Privacy Policy | @ Most Popular Instant Noodle 2017</p>    
