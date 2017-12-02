@@ -1,0 +1,278 @@
+body {
+    font-family: 'Roboto condensed', Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6em; 
+    color: #666666; 
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase
+}
+
+button{
+    margin: 16px 0px;
+    padding: 20px 36px;
+    background-color: red;
+    border: none; 
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer; 
+}
+
+header {
+    width: 100%;
+    position: absolute; 
+    top: 0px; 
+    border-top: 8px solid gray;
+    z-index: 99999;
+    box-sizing: border-box; 
+}
+
+.logo{
+    width: 120px;  
+    position: fixed; 
+    margin-top: 10px; 
+    margin-left: 800px; 
+
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: left; 
+}
+
+header nav ul {
+    margin-top: 20px; 
+}
+
+header nav ul li {
+    display: inline-block; 
+    margin-left: 1em; 
+}
+
+header nav ul li a {
+    font-size: 16px; 
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black; 
+}
+
+header nav ul li a:hover {
+    color: red; 
+    
+}
+
+.a1{
+    width: 100px;  
+    position: absolute; 
+    margin-top: 100px;
+    margin-left: 340px; 
+
+}
+
+.a2{
+    width: 200px;  
+    position: absolute; 
+    margin-top: 100px;
+    margin-left: 600px; 
+}
+
+.a3{
+    width: 120px;  
+    position: absolute; 
+    margin-top: 100px;
+    margin-left: 460px; 
+    
+}
+.c1{
+    width: 180px;  
+    position: absolute; 
+    margin-top: 270px;
+    margin-left: 425px; 
+}
+
+
+.c2{
+    width: 115px;  
+    position: absolute; 
+    margin-top: 270px;
+    margin-left: 625px; 
+}
+
+
+.c3{
+    width: 187px;  
+    position: absolute; 
+    margin-top: 270px;
+    margin-left: 760px; 
+}
+
+.c4{
+    width: 205px;  
+    position: absolute; 
+    margin-top: 270px;
+    margin-left: 200px;
+}
+
+.ch1{
+    width: 120px;  
+    position: absolute; 
+    margin-top: 438px;
+    margin-left: 470px;
+}
+
+.ch2{
+   width: 185px;  
+    position: absolute; 
+    margin-top: 438px;
+    margin-left: 265px; 
+}
+
+
+.wc1{
+    width: 118px;  
+    position: absolute; 
+    margin-top: 438px;
+    margin-left: 610px; 
+}
+
+.wc2{
+    width: 119px;  
+    position: absolute; 
+    margin-top: 438px;
+    margin-left: 750px; 
+}
+
+
+.gr4{
+    width: 180px;  
+    position: absolute; 
+    margin-top: 616px;
+    margin-left: 780px;
+}
+
+.gr3{
+    width: 119px;  
+    position: absolute; 
+    margin-top: 616px;
+    margin-left: 640px;
+}
+
+.gr2{
+    width: 140px;  
+    position: absolute; 
+    margin-top: 616px;
+    margin-left: 480px; 
+}
+
+.gr1{
+    width: 119px;  
+    position: absolute; 
+    margin-top: 616px;
+    margin-left: 340px;
+}
+
+.gr5{
+    width: 138px;  
+    position: absolute; 
+    margin-top: 616px;
+    margin-left: 179px; 
+}
+
+.ty1{
+    width: 150px;  
+    position: absolute; 
+    margin-top: 820px;
+    margin-left: 125px; 
+}
+
+.ty2{
+    width: 150px;  
+    position: absolute; 
+    margin-top: 820px;
+    margin-left: 300px; 
+}
+
+.ty3{
+    width: 150px;  
+    position: absolute; 
+    margin-top: 820px;
+    margin-left:475px; 
+}
+.ty4{
+    width: 150px;  
+    position: absolute; 
+    margin-top: 820px;
+    margin-left: 650px; 
+}
+
+.ty5{
+    width: 150px;  
+    position: absolute; 
+    margin-top: 820px;
+    margin-left: 825px; 
+}
+
+.ty6{
+    width: 150px;  
+    position: absolute; 
+    margin-top: 820px;
+    margin-left: 1000px; 
+}
+
+
+
+.bo1{
+    width: 100px;  
+    position: absolute; 
+    margin-top: 990px;
+    margin-left: 150px; 
+}
+
+.bo2{
+    width: 170px;  
+    position: absolute; 
+    margin-top: 990px;
+    margin-left: 275px; 
+}
+
+.bo3{
+    width: 130px;  
+    position: absolute; 
+    margin-top: 990px;
+    margin-left: 470px; 
+}
+.pa1{
+    width: 175px;  
+    position: absolute; 
+    margin-top: 990px;
+    margin-left: 625px; 
+}
+
+.pa2{
+    width: 230px;  
+    position: absolute; 
+    margin-top: 990px;
+    margin-left: 823px; 
+}
+.preheader bottom{
+    margin-top: 300px; 
+    padding: 20px 36px;
+    background-color: red;
+    border: none; 
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer; 
+}
+

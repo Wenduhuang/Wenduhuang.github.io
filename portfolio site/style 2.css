@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto condensed', Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6em; 
+    color: #666666; 
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase
+}
+
+button{
+    margin: 16px 0px;
+    padding: 20px 36px;
+    background-color: red;
+    border: none; 
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer; 
+}
+
+header {
+    width: 100%;
+    position: absolute; 
+    top: 0px; 
+    border-top: 8px solid gray;
+    z-index: 99999;
+    box-sizing: border-box; 
+}
+
+
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: left; 
+}
+
+header nav ul {
+    margin-top: 20px; 
+}
+
+header nav ul li {
+    display: inline-block; 
+    margin-left: 1em; 
+}
+
+header nav ul li a {
+    font-size: 16px; 
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black; 
+}
+
+header nav ul li a:hover {
+    color: red; 
+    
+}
+
+.selfie{
+    width: 800px;  
+    position: relative; 
+    margin-left: 200px; 
+    margin-top: 150px; 
+}
+
+.logo{
+    width: 120px;  
+    position: fixed; 
+    margin-top: 0px; 
+    margin-left: 800px; 
+
+}
+.body-text{
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    margin-left: 190px; 
+    width: 810px;
+    text-align:justify;
+}
+
+
